@@ -3,7 +3,8 @@ class SwitchCase
 {
     static void Main (string[] args)
     {
-        int day = 3;
+        Console.Write("Enter the day");
+        int day = Convert.ToInt32(Console.ReadLine());
 
 switch(day)
 {
