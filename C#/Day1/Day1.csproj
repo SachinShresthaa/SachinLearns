@@ -7,6 +7,6 @@
     <Nullable>enable</Nullable>
   </PropertyGroup>
 <PropertyGroup>
-    <StartupObject>Program2</StartupObject>
+    <StartupObject></StartupObject>
 </PropertyGroup>
 </Project>
