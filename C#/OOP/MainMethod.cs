@@ -13,5 +13,10 @@ class MainMethod
         // Student s2 = new Student("Angel", 20);
         // s1.DisplayStudentInfo();
         // s2.DisplayStudentInfo();
+
+        Calculator c1 = new Calculator();
+        Console.WriteLine(c1.Add(2,5));
+        Console.WriteLine(c1.Add(2,5.6));
+        Console.WriteLine(c1.Add(2,5,7));
     }
 }
