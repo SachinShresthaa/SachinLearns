@@ -27,8 +27,12 @@ class MainMethod
         // Animal c1 = new Cat();
         // c1.Sound();
 
-        Car c1 = new Car();
-        c1.Drive();
-        c1.Start();
+        // Car c1 = new Car();
+        // c1.Drive();
+        // c1.Start();
+
+        IMobile m1 = new IMobile();
+        m1.PlayMusic();
+        m1.TakePhoto();
     }
 }
