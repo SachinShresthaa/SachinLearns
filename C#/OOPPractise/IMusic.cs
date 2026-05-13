@@ -1,0 +1,4 @@
+interface IMusic
+{
+    void PlayMusic();
+}
