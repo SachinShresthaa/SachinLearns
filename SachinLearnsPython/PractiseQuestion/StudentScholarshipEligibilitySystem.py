@@ -9,4 +9,4 @@ elif CGPA >= 3.2 and Percentage >=75:
 else:
     print("Not Eligible")
 
-print (f"\nCGPA : {CGPA}\nPercentage : {Percentage}\nBacklogs : {Baclogs}")
+print (f"\nCGPA : {CGPA:.2f}\nPercentage : {Percentage:.1f}\nBacklogs : {Baclogs}")
