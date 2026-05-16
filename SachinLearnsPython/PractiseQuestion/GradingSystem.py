@@ -1,9 +1,8 @@
-python_marks = float(input("Enter Python marks: "))
-statistics_marks = float(input("Enter Statistics marks: "))
-ml_marks = float(input("Enter Machine Learning marks: "))
+python = float(input("Enter Python marks: "))
+statistics = float(input("Enter Statistics marks: "))
+ml = float(input("Enter Machine Learning marks: "))
 
-# Calculate average
-average = (python_marks + statistics_marks + ml_marks) / 3
+average = (python + statistics + ml) / 3
 
 print("\nAverage Marks:", average)
 
