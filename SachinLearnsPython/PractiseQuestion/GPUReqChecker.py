@@ -5,7 +5,7 @@ cuda = input("Is CUDA available? (True/False): ")
 
 ram_ok = ram >= 16
 gpu_ok = gpu >= 6
-cuda_ok = cuda.lower() == True
+cuda_ok = cuda.lower() == "true"
 
 if ram_ok and gpu_ok and cuda_ok:
     print("System is READY for Deep Learning model training ")

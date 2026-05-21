@@ -6,7 +6,6 @@ average = (python + statistics + ml) / 3
 
 print("\nAverage Marks:", average)
 
-# Grade assignment
 if average >= 90:
     grade = "A+"
 elif average >= 80:
@@ -22,7 +21,6 @@ else:
 
 print("Grade:", grade)
 
-# AI Career Recommendation
 if average > 85:
     recommendation = "AI Engineer"
 elif average > 70:

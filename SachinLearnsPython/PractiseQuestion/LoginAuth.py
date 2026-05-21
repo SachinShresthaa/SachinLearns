@@ -7,5 +7,5 @@ if un == username and pw == password:
     print("Successfull login")
 elif un == username and pw != password:
     print("Incorrect Password")
-else:
+else: 
     print("User not found")

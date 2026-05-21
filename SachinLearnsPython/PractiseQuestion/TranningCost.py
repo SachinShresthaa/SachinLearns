@@ -1,8 +1,8 @@
-trainingHours = float(input("Enter number of training hours: "))
-gpuHourlyCost = float(input("Enter GPU hourly cost: "))
-storageCost = float(input("Enter storage cost: "))
+th = float(input("Enter number of training hours: "))
+ghc = float(input("Enter GPU hourly cost: "))
+sc = float(input("Enter storage cost: "))
 
-total_cost = (trainingHours * gpuHourlyCost) + storageCost
+total_cost = (th * ghc) + sc
 
 print("\nTotal Training Cost:", total_cost)
 

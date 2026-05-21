@@ -1,18 +1,18 @@
-faceDetction = input("Face Detected (True/False): ")
-multipleDetected = input  ("Multiple Person detectd (True/False): ")
-noiseLevel = int(input("Enter Noise Level: "))
+fd = input("Face Detected (True/False): ")
+md = input  ("Multiple Person detectd (True/False): ")
+nl = int(input("Enter Noise Level: "))
 
-condition = faceDetction.lower() == "true" and multipleDetected.lower()=="false" and noiseLevel <50 
+condition = fd.lower() == "true" and md.lower()=="false" and nl <50 
 if condition:
     print("Exam Environment Valid")
 else:
     print("Exam Environment Invalid")
 
-if faceDetction.lower() == "false":
+if fd.lower() == "false":
     print("Face not detected")
 
-if multipleDetected.lower()=="true":
+if md.lower()=="true":
     print("Multiple face detected")
 
-if noiseLevel>=50:
+if nl>=50:
     print("Too much noise")
