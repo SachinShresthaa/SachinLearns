@@ -4,9 +4,14 @@ class MainMethod
 {
     public static void Main(String[] args)
     {
-        basicEH b = new basicEH();
-        b.EH();
-        throwsEG t = new throwsEG();
-        t.throooooo();
+        // basicEH b = new basicEH();
+        // b.EH();
+
+        // throwsEG t = new throwsEG();
+        // t.throooooo();
+
+        ATM atm = new ATM();
+
+        atm.StartATM();
     }
 }
