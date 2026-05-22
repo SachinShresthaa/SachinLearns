@@ -6,5 +6,7 @@ class MainMethod
     {
         basicEH b = new basicEH();
         b.EH();
+        throwsEG t = new throwsEG();
+        t.throooooo();
     }
 }
