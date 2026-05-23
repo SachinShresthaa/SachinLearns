@@ -1,4 +1,4 @@
-class Patient : Person
+class Patient : Person, IHospitalOperations
 {
     private int PatientID;
     private string Disease="";
@@ -23,6 +23,18 @@ class Patient : Person
     public void ShowBill()
     {
         Console.WriteLine("Bill amount"+ BillAmount);
+    }
+    public void AdmitPatient()
+    {
+        Console.WriteLine("Patient admitted");
+    }
+    public void DischargePatient()
+    {
+        Console.WriteLine("Patient discharge");
+    }
+    public void GenerateBill()
+    {
+        Console.WriteLine("Bill Degnerated");
     }
     public override DisplayInfo()
     {
