@@ -7,6 +7,10 @@ class Patient : Person
 
     public Doctor(string Name,int Age,string Gender,int PatientID,string Disease,int RoomNumber, double BillAmount) : base(Name,Age,Gender)
     {
+        if (Age <= 0)
+        {
+            throw new Exception("GHOSTTTTT???");
+        }
         this.PatientID=PatientID;
         this.Disease=Disease;
         this.RoomNumber=RoomNumber;
