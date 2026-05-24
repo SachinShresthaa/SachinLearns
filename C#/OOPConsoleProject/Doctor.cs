@@ -1,7 +1,4 @@
-using System.Runtime.CompilerServices;
-using System.Security.Cryptography;
-
-class Doctor : Person
+public class Doctor : Person
 {
     private int DoctorID;
     private string Specialization="";
@@ -21,7 +18,7 @@ class Doctor : Person
     {
         Console.WriteLine("Doctor suggest medicine");
     }
-    public override DisplayInfo()
+    public override void DisplayInfo()
     {
         base.DisplayInfo();
         Console.WriteLine("Doctor ID : "+DoctorID+"\n"+"Specialiazation : "+Specialization+"\n"+"Salary : "+Salary);
