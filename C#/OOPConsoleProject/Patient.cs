@@ -1,11 +1,11 @@
-class Patient : Person, IHospitalOperations
+public class Patient : Person, IHospitalOperations
 {
     private int PatientID;
     private string Disease="";
     private int RoomNumber;
     private double BillAmount;
 
-    public Doctor(string Name,int Age,string Gender,int PatientID,string Disease,int RoomNumber, double BillAmount) : base(Name,Age,Gender)
+    public Patient(string Name,int Age,string Gender,int PatientID,string Disease,int RoomNumber, double BillAmount) : base(Name,Age,Gender)
     {
         if (Age <= 0)
         {
@@ -36,7 +36,7 @@ class Patient : Person, IHospitalOperations
     {
         Console.WriteLine("Bill Degnerated");
     }
-    public override DisplayInfo()
+    public override void DisplayInfo()
     {
         base.DisplayInfo();
         Console.WriteLine("Patient ID : "+PatientID+"\n"+"Disease : "+Disease+"\n"+"Room Number : "+RoomNumber+"\n"+"Bill Amount: "+BillAmount);

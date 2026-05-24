@@ -1,4 +1,4 @@
-class Nurse : Person
+public class Nurse : Person
 {
     private int WardNumber;
     private string ShiftTiming="";
@@ -12,7 +12,7 @@ class Nurse : Person
     {
         Console.WriteLine("Assisted");
     }
-    public override DisplayInfo()
+    public override void DisplayInfo()
     {
         base.DisplayInfo();
         Console.WriteLine("Ward Number : "+WardNumber+"\n"+"Shift Timing : "+ShiftTiming);
