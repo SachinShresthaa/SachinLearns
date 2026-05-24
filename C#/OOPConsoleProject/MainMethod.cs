@@ -82,7 +82,12 @@ public class mainMethod
                     }
                     break;
                 case 4:
-                break;
+                    running = false;
+                    Console.WriteLine("System Closed");
+                    break;
+                default:
+                    Console.WriteLine("Invalid Choice");
+                    break;
             }
         }
     }
