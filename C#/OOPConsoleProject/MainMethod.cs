@@ -19,19 +19,19 @@ public class mainMethod
             {
                 case 1:
                     Console.Write("Enter Doctor Name: ");
-                    string dname =Console.ReadLine();
+                    string dname =Console.ReadLine()?? "";
 
                     Console.Write( "Enter Doctor Age: ");
                     int dage =Convert.ToInt32(Console.ReadLine());
 
                     Console.Write("Enter Gender: ");
-                    string dgender =Console.ReadLine();
+                    string dgender =Console.ReadLine()?? "";
 
                     Console.Write("Enter Doctor ID: ");
                     int did =Convert.ToInt32(Console.ReadLine());
 
                     Console.Write("Enter Specialization: ");
-                    string specialization =Console.ReadLine();
+                    string specialization =Console.ReadLine()?? "";
 
                     Console.Write("Enter Salary: ");
                     double salary =Convert.ToDouble(Console.ReadLine());
@@ -43,19 +43,19 @@ public class mainMethod
                 case 2:
                     try{
                         Console.Write("Enter Patient Name: " );
-                        string pname =Console.ReadLine();
+                        string pname =Console.ReadLine()?? "";
 
                         Console.Write("Enter Patient Age: ");
                         int page = Convert.ToInt32(Console.ReadLine());
 
                         Console.Write("Enter Gender: ");
-                        string pgender =Console.ReadLine();
+                        string pgender =Console.ReadLine()?? "";
 
                         Console.Write("Enter Patient ID: " );
                         int pid =Convert.ToInt32(Console.ReadLine());
 
                         Console.Write("Enter Disease: ");
-                        string disease =Console.ReadLine();
+                        string disease =Console.ReadLine()?? "";
 
                         Console.Write("Enter Room Number: ");
                         int room =Convert.ToInt32(Console.ReadLine());
