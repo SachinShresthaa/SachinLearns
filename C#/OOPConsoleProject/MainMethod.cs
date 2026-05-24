@@ -39,10 +39,9 @@ public class mainMethod
                     Doctor d1 =new Doctor(dname,dage,dgender,did,specialization,salary);
                     people.Add(d1);
                     Console.WriteLine("Doctor Added Successfully");
-
-                break;
-                    try
-                    {
+                    break;
+                case 2:
+                    try{
                         Console.Write("Enter Patient Name: " );
                         string pname =Console.ReadLine();
 
@@ -75,11 +74,13 @@ public class mainMethod
                     {
                         Console.WriteLine("Patient Process Finished");
                     }
-                case 2:
-
-                break;
+                    break;
                 case 3:
-                break;
+                    foreach(Person p in people){
+                        Console.WriteLine();
+                        p.DisplayInfo();
+                    }
+                    break;
                 case 4:
                 break;
             }
