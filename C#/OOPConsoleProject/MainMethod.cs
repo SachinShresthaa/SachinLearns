@@ -41,7 +41,42 @@ public class mainMethod
                     Console.WriteLine("Doctor Added Successfully");
 
                 break;
+                    try
+                    {
+                        Console.Write("Enter Patient Name: " );
+                        string pname =Console.ReadLine();
+
+                        Console.Write("Enter Patient Age: ");
+                        int page = Convert.ToInt32(Console.ReadLine());
+
+                        Console.Write("Enter Gender: ");
+                        string pgender =Console.ReadLine();
+
+                        Console.Write("Enter Patient ID: " );
+                        int pid =Convert.ToInt32(Console.ReadLine());
+
+                        Console.Write("Enter Disease: ");
+                        string disease =Console.ReadLine();
+
+                        Console.Write("Enter Room Number: ");
+                        int room =Convert.ToInt32(Console.ReadLine());
+
+                        Console.Write("Enter Bill Amount: ");
+                        double bill =Convert.ToDouble(Console.ReadLine());
+
+                        Patient p1 =new Patient(pname,page,pgender,pid,disease,room,bill);
+                        people.Add(p1);
+                        Console.WriteLine("Patient Added Successfully");
+                    }
+                    catch(Exception ex){
+                        Console.WriteLine(ex.Message);
+                    }
+                    finally
+                    {
+                        Console.WriteLine("Patient Process Finished");
+                    }
                 case 2:
+
                 break;
                 case 3:
                 break;
