@@ -37,7 +37,7 @@ public class mainMethod
                     double salary =Convert.ToDouble(Console.ReadLine());
                     
                     Doctor d1 =new Doctor(dname,dage,dgender,did,specialization,salary);
-                    people.Add(d1);
+                    p.Add(d1);
                     Console.WriteLine("Doctor Added Successfully");
                     break;
                 case 2:
@@ -64,7 +64,7 @@ public class mainMethod
                         double bill =Convert.ToDouble(Console.ReadLine());
 
                         Patient p1 =new Patient(pname,page,pgender,pid,disease,room,bill);
-                        people.Add(p1);
+                        p.Add(p1);
                         Console.WriteLine("Patient Added Successfully");
                     }
                     catch(Exception ex){
@@ -76,9 +76,9 @@ public class mainMethod
                     }
                     break;
                 case 3:
-                    foreach(Person p in people){
+                    foreach(Person pe in p){
                         Console.WriteLine();
-                        p.DisplayInfo();
+                        pe.DisplayInfo();
                     }
                     break;
                 case 4:

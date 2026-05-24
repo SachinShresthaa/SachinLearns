@@ -1,4 +1,4 @@
-interface IHospitalOperations
+public interface IHospitalOperations
 {
     void AdmitPatient();
     void DischargePatient();

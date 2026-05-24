@@ -8,10 +8,10 @@ public class Hospital
         doctors.Add(doctor);
         Console.WriteLine("Docter added successfully");
     }
-    public void addPatient(Patient patient, int patientID)
+    public void addPatient(int patientID,Patient patient)
     {
         patients.Add(patient);
-        patientRecord.Add(patient,patientID);
+        patientRecord.Add(patientID,patient);
         Console.WriteLine("Patient Added");
     }
     public void showDoctor()
@@ -19,7 +19,7 @@ public class Hospital
         foreach(Doctor d in doctors)
         {
             Console.WriteLine("");
-            d.displayInfo();
+            d.DisplayInfo();
         }
     }
     public void showPatient()
@@ -27,7 +27,7 @@ public class Hospital
         foreach(Patient p in patients)
         {
             Console.WriteLine("");
-            p.displayInfo();
+            p.DisplayInfo();
         }
     }
 }

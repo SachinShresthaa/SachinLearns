@@ -1,0 +1,15 @@
+C:\Users\sachi\Desktop\SachinLearns\c#\OOPConsoleProject\obj\Debug\net10.0\OOPConsoleProject.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\sachi\Desktop\SachinLearns\c#\OOPConsoleProject\obj\Debug\net10.0\OOPConsoleProject.AssemblyInfoInputs.cache
+C:\Users\sachi\Desktop\SachinLearns\c#\OOPConsoleProject\obj\Debug\net10.0\OOPConsoleProject.AssemblyInfo.cs
+C:\Users\sachi\Desktop\SachinLearns\c#\OOPConsoleProject\obj\Debug\net10.0\OOPConsoleProject.csproj.CoreCompileInputs.cache
+C:\Users\sachi\Desktop\SachinLearns\c#\OOPConsoleProject\obj\Debug\net10.0\OOPConsoleProject.sourcelink.json
+C:\Users\sachi\Desktop\SachinLearns\C#\OOPConsoleProject\bin\Debug\net10.0\OOPConsoleProject.exe
+C:\Users\sachi\Desktop\SachinLearns\C#\OOPConsoleProject\bin\Debug\net10.0\OOPConsoleProject.deps.json
+C:\Users\sachi\Desktop\SachinLearns\C#\OOPConsoleProject\bin\Debug\net10.0\OOPConsoleProject.runtimeconfig.json
+C:\Users\sachi\Desktop\SachinLearns\C#\OOPConsoleProject\bin\Debug\net10.0\OOPConsoleProject.dll
+C:\Users\sachi\Desktop\SachinLearns\C#\OOPConsoleProject\bin\Debug\net10.0\OOPConsoleProject.pdb
+C:\Users\sachi\Desktop\SachinLearns\C#\OOPConsoleProject\obj\Debug\net10.0\OOPConsoleProject.dll
+C:\Users\sachi\Desktop\SachinLearns\C#\OOPConsoleProject\obj\Debug\net10.0\refint\OOPConsoleProject.dll
+C:\Users\sachi\Desktop\SachinLearns\C#\OOPConsoleProject\obj\Debug\net10.0\OOPConsoleProject.pdb
+C:\Users\sachi\Desktop\SachinLearns\C#\OOPConsoleProject\obj\Debug\net10.0\OOPConsoleProject.genruntimeconfig.cache
+C:\Users\sachi\Desktop\SachinLearns\C#\OOPConsoleProject\obj\Debug\net10.0\ref\OOPConsoleProject.dll
