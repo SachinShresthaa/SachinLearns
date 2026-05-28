@@ -1,4 +1,4 @@
-    class Dog:
+class Dog:
     def sound(self):
         print("Dog barks")
 
