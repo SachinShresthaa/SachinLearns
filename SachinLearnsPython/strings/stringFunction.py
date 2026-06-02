@@ -1,0 +1,8 @@
+print(len('sachin'))
+print(ord('B'))
+print(max('zebra'))
+print(sorted('hello world'))
+print(str(36.99))
+print(chr(90))
+print(min('zebra'))
+print(''.join(reversed("abcde")))
