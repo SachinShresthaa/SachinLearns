@@ -1,0 +1,10 @@
+text = "hello"
+print(text.isalpha())
+print(text.isspace())
+print(text.istitle())
+print(text.isdigit())
+print(text.isupper())
+print(text.startswith("he"))
+print(text.isalnum())
+print(text.islower())
+print(text.endswith("lo"))
