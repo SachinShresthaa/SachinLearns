@@ -1,4 +1,4 @@
-def count_positive_labels(labels):
+def countPositiveLabels(labels):
     count = 0
     for label in labels:
         if label == 1:
@@ -6,9 +6,9 @@ def count_positive_labels(labels):
     return count
 
 labels = [1, 0, 1, 1, 0, 1, 0, 0, 1, 1]
-positive_count = count_positive_labels(labels)
+positiveCount = countPositiveLabels(labels)
 
-percentage = (positive_count / len(labels)) * 100
+percentage = (positiveCount / len(labels)) * 100
 
-print("Positive Labels:", positive_count)
+print("Positive Labels:", positiveCount)
 print("Percentage of Positive Labels:", percentage, "%")
