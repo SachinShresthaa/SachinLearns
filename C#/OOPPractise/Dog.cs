@@ -1,4 +1,4 @@
-class Dog:Animal
+class Dog : Animal
 {
     public override void Sound()
     {
