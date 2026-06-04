@@ -3,5 +3,5 @@ def train_model(epochs):
         print(f"Epoch {i} completed")
     print("Training Finished")
 
-epochs = int(input("Enter number of epochs: "))
+epochs = int(input("Enter numbers of epochs: "))
 train_model(epochs)
