@@ -5,4 +5,4 @@ def calculate_cost(n):
 
 layers = int(input("Enter number of layers: "))
 total_cost = calculate_cost(layers)
-print(f"Total computational cost for {layers} layers: {total_cost}")
+print(f"Total computationals cost for {layers} layers: {total_cost}")
