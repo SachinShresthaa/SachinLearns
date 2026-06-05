@@ -18,5 +18,5 @@ dataset = {
     }
 }
 
-total_images = count_images(dataset)
-print("Total number of images:", total_images)
+totalImages = count_images(dataset)
+print("Total number of images:", totalImages)
