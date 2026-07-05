@@ -21,17 +21,14 @@ print(upper_names)
 long_names = [name for name in names if len(name) > 3]
 print(long_names)
 
-# nested list comprehension - multiplication table
 table = [[row * col for col in range(1, 6)] for row in range(1, 6)]
 for row in table:
     print(row)
 
-# flatten a 2D list into 1D
 matrix = [[1, 2, 3], [4, 5, 6], [7, 8, 9]]
 flat = [num for row in matrix for num in row]
 print(flat)
 
-# ML use case - normalize scores between 0 and 1
 raw_scores = [50, 75, 90, 40, 100]
 max_score = max(raw_scores)
 normalized = [round(s / max_score, 2) for s in raw_scores]
