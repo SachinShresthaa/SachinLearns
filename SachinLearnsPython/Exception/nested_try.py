@@ -1,4 +1,3 @@
-# nested_try.py
 
 try:
     try:
