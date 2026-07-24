@@ -56,3 +56,19 @@ def search_student():
 
     except ValueError:
         print("\nPlease enter a valid Student ID.")
+
+
+def delete_student():
+    try:
+        student_id = int(input("Enter Student ID to delete: "))
+
+        for student in students:
+            if student["id"] == student_id:
+                students.remove(student)
+                print("\nStudent deleted successfully.")
+                return
+
+        print("\nStudent not found.")
+
+    except ValueError:
+        print("\nPlease enter a valid Student ID.")
