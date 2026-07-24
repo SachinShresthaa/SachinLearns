@@ -21,3 +21,19 @@ def add_student():
 
     except ValueError:
         print("\nPlease enter valid numbers for ID and Age.")
+
+    def view_students():
+        if len(students) == 0:
+            print("\nNo student records found.")
+        return
+
+    print("\n----- Student Records -----")
+
+    for student in students:
+        print(f"""
+            ID: {student["id"]}
+            Name: {student["name"]}
+            Age: {student["age"]}
+            Course: {student["course"]}
+            ---------------------------
+            """)
