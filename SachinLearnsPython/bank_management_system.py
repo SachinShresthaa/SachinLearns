@@ -21,3 +21,6 @@ class BankAccount(Person):
         self.__balance = balance
 
         BankAccount.account_count += 1
+
+    def get_account_number(self):
+        return self.__account_number
