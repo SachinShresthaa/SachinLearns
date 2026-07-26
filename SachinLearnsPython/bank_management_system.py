@@ -24,3 +24,5 @@ class BankAccount(Person):
 
     def get_account_number(self):
         return self.__account_number
+    def check_balance(self):
+        print(f"Current Balance: ${self.__balance:.2f}")
