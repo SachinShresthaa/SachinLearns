@@ -65,3 +65,7 @@ Balance: ${self.__balance:.2f}
             "age": self.age,
             "balance": self.__balance
         }
+
+    @classmethod
+    def get_account_count(cls):
+        return cls.account_count
