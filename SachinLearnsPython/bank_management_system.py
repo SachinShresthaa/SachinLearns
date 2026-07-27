@@ -26,3 +26,11 @@ class BankAccount(Person):
         return self.__account_number
     def check_balance(self):
         print(f"Current Balance: ${self.__balance:.2f}")
+    def deposit(self, amount):
+
+        if amount <= 0:
+            raise ValueError("Deposit amount must be greater than zero.")
+
+        self.__balance += amount
+
+        print(f"${amount:.2f} deposited successfully.")
