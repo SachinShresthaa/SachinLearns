@@ -69,3 +69,8 @@ Balance: ${self.__balance:.2f}
     @classmethod
     def get_account_count(cls):
         return cls.account_count
+
+    # Static Method
+    @staticmethod
+    def is_valid_age(age):
+        return age >= 18
