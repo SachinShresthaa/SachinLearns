@@ -46,3 +46,14 @@ class BankAccount(Person):
         self.__balance -= amount
 
         print(f"${amount:.2f} withdrawn successfully.")
+
+    def display_info(self):
+
+        print(f"""
+------------------------------
+Account Number: {self.__account_number}
+Name: {self.name}
+Age: {self.age}
+Balance: ${self.__balance:.2f}
+------------------------------
+""")
