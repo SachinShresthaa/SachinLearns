@@ -34,3 +34,15 @@ class BankAccount(Person):
         self.__balance += amount
 
         print(f"${amount:.2f} deposited successfully.")
+
+    def withdraw(self, amount):
+
+        if amount <= 0:
+            raise ValueError("Withdrawal amount must be greater than zero.")
+
+        if amount > self.__balance:
+            raise ValueError("Insufficient balance.")
+
+        self.__balance -= amount
+
+        print(f"${amount:.2f} withdrawn successfully.")
