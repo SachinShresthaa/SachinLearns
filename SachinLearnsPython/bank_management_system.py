@@ -57,3 +57,11 @@ Age: {self.age}
 Balance: ${self.__balance:.2f}
 ------------------------------
 """)
+    def to_dict(self):
+
+        return {
+            "account_number": self.__account_number,
+            "name": self.name,
+            "age": self.age,
+            "balance": self.__balance
+        }
