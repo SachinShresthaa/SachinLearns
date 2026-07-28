@@ -74,3 +74,11 @@ Balance: ${self.__balance:.2f}
     @staticmethod
     def is_valid_age(age):
         return age >= 18
+
+    class BankManagementSystem:
+
+     def __init__(self):
+
+        self.accounts = []
+
+        self.file_name = "accounts.json"
