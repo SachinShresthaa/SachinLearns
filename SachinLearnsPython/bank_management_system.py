@@ -82,3 +82,46 @@ Balance: ${self.__balance:.2f}
         self.accounts = []
 
         self.file_name = "accounts.json"
+
+    def create_account(self):
+
+        try:
+
+            account_number = int(
+                input("Enter Account Number: ")
+            )
+
+            # Check duplicate account
+            for account in self.accounts:
+
+                if account.get_account_number() == account_number:
+
+                    print("Account number already exists.")
+
+                    return
+
+            name = input("Enter Account Holder Name: ")
+
+            age = int(input("Enter Age: "))
+
+            if not BankAccount.is_valid_age(age):
+
+                print("You must be 18 or older.")
+
+                return
+
+            account = BankAccount(
+                account_number,
+                name,
+                age
+            )
+
+            self.accounts.append(account)
+
+            self.save_accounts()
+
+            print("Account created successfully.")
+
+        except ValueError as error:
+
+            print("Error:", error)
