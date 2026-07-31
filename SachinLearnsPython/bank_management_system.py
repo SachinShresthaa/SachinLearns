@@ -335,3 +335,7 @@ Balance: ${self.__balance:.2f}
             else:
 
                 print("Invalid choice.")
+
+    bank = BankManagementSystem()
+
+    bank.run()
