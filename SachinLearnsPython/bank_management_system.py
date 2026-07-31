@@ -209,3 +209,15 @@ Balance: ${self.__balance:.2f}
         except ValueError:
 
             print("Invalid account number.")
+
+    def view_accounts(self):
+
+        if not self.accounts:
+
+            print("No accounts found.")
+
+            return
+
+        for account in self.accounts:
+
+            account.display_info()
