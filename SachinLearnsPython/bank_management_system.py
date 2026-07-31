@@ -187,3 +187,25 @@ Balance: ${self.__balance:.2f}
         except ValueError as error:
 
             print("Error:", error)
+
+    def check_balance(self):
+
+        try:
+
+            account_number = int(
+                input("Enter Account Number: ")
+            )
+
+            account = self.find_account(account_number)
+
+            if account is None:
+
+                print("Account not found.")
+
+                return
+
+            account.check_balance()
+
+        except ValueError:
+
+            print("Invalid account number.")
