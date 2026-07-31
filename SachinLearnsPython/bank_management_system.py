@@ -221,3 +221,28 @@ Balance: ${self.__balance:.2f}
         for account in self.accounts:
 
             account.display_info()
+
+    def save_accounts(self):
+
+        data = []
+
+        for account in self.accounts:
+
+            data.append(account.to_dict())
+
+        try:
+
+            with open(
+                self.file_name,
+                "w"
+            ) as file:
+
+                json.dump(
+                    data,
+                    file,
+                    indent=4
+                )
+
+        except OSError as error:
+
+            print("File error:", error)
