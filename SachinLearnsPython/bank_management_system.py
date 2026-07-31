@@ -246,3 +246,33 @@ Balance: ${self.__balance:.2f}
         except OSError as error:
 
             print("File error:", error)
+
+    def load_accounts(self):
+
+        try:
+
+            with open(
+                self.file_name,
+                "r"
+            ) as file:
+
+                data = json.load(file)
+
+                for account_data in data:
+
+                    account = BankAccount(
+                        account_data["account_number"],
+                        account_data["name"],
+                        account_data["age"],
+                        account_data["balance"]
+                    )
+
+                    self.accounts.append(account)
+
+        except FileNotFoundError:
+
+            print("No previous accounts found.")
+
+        except json.JSONDecodeError:
+
+            print("Invalid JSON file.")
