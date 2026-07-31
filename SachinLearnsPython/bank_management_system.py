@@ -276,3 +276,62 @@ Balance: ${self.__balance:.2f}
         except json.JSONDecodeError:
 
             print("Invalid JSON file.")
+
+    def run(self):
+
+        self.load_accounts()
+
+        while True:
+
+            print("""
+==================================
+       BANK MANAGEMENT SYSTEM
+==================================
+
+1. Create Account
+2. Deposit Money
+3. Withdraw Money
+4. Check Balance
+5. View All Accounts
+6. Total Accounts
+7. Exit
+""")
+
+            choice = input("Enter your choice: ")
+
+            if choice == "1":
+
+                self.create_account()
+
+            elif choice == "2":
+
+                self.deposit_money()
+
+            elif choice == "3":
+
+                self.withdraw_money()
+
+            elif choice == "4":
+
+                self.check_balance()
+
+            elif choice == "5":
+
+                self.view_accounts()
+
+            elif choice == "6":
+
+                print(
+                    "Total Accounts:",
+                    BankAccount.get_account_count()
+                )
+
+            elif choice == "7":
+
+                print("Thank you for using the bank system.")
+
+                break
+
+            else:
+
+                print("Invalid choice.")
