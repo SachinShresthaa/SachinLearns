@@ -1,3 +1,4 @@
+#LIFECYCLE
 f = open("notes.txt","w")
 f.write("Hello,Python!")
 f.close()
