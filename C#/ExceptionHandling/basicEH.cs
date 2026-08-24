@@ -2,7 +2,7 @@ using System;
 
 class basicEH
 {
-   public void EH()
+    public void EH()
     {
         try
         {
