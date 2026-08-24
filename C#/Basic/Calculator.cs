@@ -16,7 +16,7 @@ class Calculator
         switch (Opertor)
         {
             case ("+"):
-                result = num1 +num2;
+                result = num1 + num2;
                 break;
             
             case("-"):
