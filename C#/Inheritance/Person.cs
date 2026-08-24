@@ -1,11 +1,11 @@
 class Person
 {
-    public string name="";
+    public string name = "";
     public int age;
     public Person(String name, int age)
     {
-        this.name= name;
-        this.age=age;
+        this.name = name;
+        this.age = age;
     }
     public void DisplayPersonInfo()
     {
