@@ -1,0 +1,15 @@
+{
+  "java.project.referencedLibraries": [
+    "C:/hadoop-3.3.6/share/hadoop/common/*.jar",
+    "C:/hadoop-3.3.6/share/hadoop/common/lib/*.jar",
+    "C:/hadoop-3.3.6/share/hadoop/mapreduce/*.jar",
+    "C:/hadoop-3.3.6/share/hadoop/mapreduce/lib/*.jar",
+    "C:/hadoop-3.3.6/share/hadoop/yarn/*.jar",
+    "C:/hadoop-3.3.6/share/hadoop/yarn/lib/*.jar",
+    "C:/hadoop-3.3.6/share/hadoop/hdfs/*.jar",
+    "C:/hadoop-3.3.6/share/hadoop/hdfs/lib/*.jar"
+  ],
+  "code-runner.executorMap": {
+    "java": "cd $dir & set \"HADOOP_HOME=C:\\hadoop-3.3.6\" & set \"PATH=%PATH%;C:\\hadoop-3.3.6\\bin\" & rmdir /s /q wc-output 2>nul & javac -classpath \".;C:\\hadoop-3.3.6\\share\\hadoop\\common\\*;C:\\hadoop-3.3.6\\share\\hadoop\\common\\lib\\*;C:\\hadoop-3.3.6\\share\\hadoop\\mapreduce\\*;C:\\hadoop-3.3.6\\share\\hadoop\\mapreduce\\lib\\*;C:\\hadoop-3.3.6\\share\\hadoop\\yarn\\*;C:\\hadoop-3.3.6\\share\\hadoop\\yarn\\lib\\*;C:\\hadoop-3.3.6\\share\\hadoop\\hdfs\\*;C:\\hadoop-3.3.6\\share\\hadoop\\hdfs\\lib\\*\" $fileName && java -classpath \".;C:\\hadoop-3.3.6\\share\\hadoop\\common\\*;C:\\hadoop-3.3.6\\share\\hadoop\\common\\lib\\*;C:\\hadoop-3.3.6\\share\\hadoop\\mapreduce\\*;C:\\hadoop-3.3.6\\share\\hadoop\\mapreduce\\lib\\*;C:\\hadoop-3.3.6\\share\\hadoop\\yarn\\*;C:\\hadoop-3.3.6\\share\\hadoop\\yarn\\lib\\*;C:\\hadoop-3.3.6\\share\\hadoop\\hdfs\\*;C:\\hadoop-3.3.6\\share\\hadoop\\hdfs\\lib\\*\" $fileNameWithoutExt wc-input wc-output && if $fileNameWithoutExt==WordCount (echo. & echo === Output === & type wc-output\\part-r-00000)"
+  }
+}
