@@ -1,2 +1,9 @@
 bin/
 obj/
+
+# Java build/run artifacts
+*.class
+Java/wc-classes/
+Java/wc-output/
+Java/wc-output2/
+Java/wordcount.jar
