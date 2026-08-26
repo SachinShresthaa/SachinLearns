@@ -1,7 +1,7 @@
-class Car : Vehical
+class Car : Vehicle
 {
     public override void Drive()
     {
-        Console.WriteLine("Vechical Drive");
+        Console.WriteLine("Vehicle Drive");
     }
 }

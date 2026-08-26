@@ -1,4 +1,4 @@
-abstract class Vehical{
+abstract class Vehicle{
     public void Start()
     {
         Console.WriteLine("Started");
