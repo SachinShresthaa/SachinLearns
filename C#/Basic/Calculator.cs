@@ -5,15 +5,15 @@ class Calculator
         Console.Write("Enter First Number: ");
         Double num1 = Convert.ToDouble(Console.ReadLine());
 
-        Console.Write("Enter The Opertor(+,-,*,/): ");
-        String Opertor = Console.ReadLine();
+        Console.Write("Enter The Operator(+,-,*,/): ");
+        String Operator = Console.ReadLine();
 
         Console.Write("Enter Second Number: ");
         Double num2 = Convert.ToDouble(Console.ReadLine());
 
         double result = 0;
 
-        switch (Opertor)
+        switch (Operator)
         {
             case ("+"):
                 result = num1 + num2;
