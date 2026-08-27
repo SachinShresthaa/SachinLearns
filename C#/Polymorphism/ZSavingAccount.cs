@@ -9,7 +9,7 @@ class ZSavingAccount : ZBankAccount
         balance-=amount;        }
         else
         {
-            Console.WriteLine("Amount will go less then 1000");
+            Console.WriteLine("Amount will go less than 1000");
         }
     }
 }
