@@ -6,7 +6,7 @@ public class Hospital
         public void addDoctor(Doctor doctor)
     {
         doctors.Add(doctor);
-        Console.WriteLine("Docter added successfully");
+        Console.WriteLine("Doctor added successfully");
     }
     public void addPatient(int patientID,Patient patient)
     {
