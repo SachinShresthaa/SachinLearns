@@ -21,6 +21,6 @@ public class Doctor : Person
     public override void DisplayInfo()
     {
         base.DisplayInfo();
-        Console.WriteLine("Doctor ID : "+DoctorID+"\n"+"Specialiazation : "+Specialization+"\n"+"Salary : "+Salary);
+        Console.WriteLine("Doctor ID : "+DoctorID+"\n"+"Specialization : "+Specialization+"\n"+"Salary : "+Salary);
     }
 }
