@@ -30,11 +30,11 @@ public class Patient : Person, IHospitalOperations
     }
     public void DischargePatient()
     {
-        Console.WriteLine("Patient discharge");
+        Console.WriteLine("Patient discharged");
     }
     public void GenerateBill()
     {
-        Console.WriteLine("Bill Degnerated");
+        Console.WriteLine("Bill Generated");
     }
     public override void DisplayInfo()
     {
