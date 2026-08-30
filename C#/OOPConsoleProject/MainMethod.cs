@@ -1,4 +1,4 @@
-public class mainMethod
+public class MainMethod
 {
     static void Main(string[] args)
     {
