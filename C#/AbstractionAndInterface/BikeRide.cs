@@ -1,6 +1,6 @@
 class BikeRide : Vehicle , IRide
 {
-    public BikeRide(string driverName,int bikeNumebr):base(driverName, bikeNumebr)
+    public BikeRide(string driverName,int bikeNumber):base(driverName, bikeNumber)
     {
     }
     public void StartRide()
