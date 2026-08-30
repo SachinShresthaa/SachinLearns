@@ -2,7 +2,7 @@ class EmergencyService : MedicalService
 {
     public override void StartService()
     {
-        Console.WriteLine("Emergenecy Service started");
+        Console.WriteLine("Emergency Service started");
     
     }
     public override void StopService()
