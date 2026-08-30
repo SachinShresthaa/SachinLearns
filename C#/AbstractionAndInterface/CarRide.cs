@@ -2,7 +2,7 @@
 
 class CarRide : Vehicle, IRide
 {
-    public CarRide(string driverName,int bikeNumebr):base(driverName, bikeNumebr)
+    public CarRide(string driverName,int carNumber):base(driverName, carNumber)
     {
     }
     public void StartRide()
