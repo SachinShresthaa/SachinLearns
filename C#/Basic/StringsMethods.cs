@@ -4,7 +4,7 @@ class StringsMethods
     {
         String text = "Hello, my name is Sachin Shrestha";
 
-        Console.WriteLine("Length:"+ text.Length);
+        Console.WriteLine("Length: " + text.Length);
 
         Console.WriteLine("Upper: " + text.ToUpper());
 
@@ -27,7 +27,7 @@ class StringsMethods
         Console.WriteLine("Substring: " +
                           text.Substring(7, 26));
 
-        Console.WriteLine("IndexOf Sachin " +
+        Console.WriteLine("IndexOf Sachin: " +
                           text.IndexOf("Sachin"));
 
         Console.WriteLine("Insert: " +
