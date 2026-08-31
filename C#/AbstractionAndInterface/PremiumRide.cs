@@ -1,7 +1,7 @@
 
 class PremiumRide : Vehicle, IRide
 {
-    public PremiumRide(string driverName,int bikeNumebr):base(driverName, bikeNumebr)
+    public PremiumRide(string driverName,int vehicleNumber):base(driverName, vehicleNumber)
     {
     }
     public void StartRide()
@@ -11,7 +11,7 @@ class PremiumRide : Vehicle, IRide
     }
     public void EndRide()
     {
-        Console.WriteLine("Preminum Ride Ended");
+        Console.WriteLine("Premium Ride Ended");
     }
     public override double CalculateFare(double distance)
     {
