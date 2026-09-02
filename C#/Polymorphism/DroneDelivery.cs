@@ -5,7 +5,7 @@ class DroneDelivery : Delivery
     {
         this.droneNumber=droneNumber;
     }
- public override void DeliverOrder()
+    public override void DeliverOrder()
     {
         Console.WriteLine("Customer: " +
                           customerName);
@@ -13,7 +13,7 @@ class DroneDelivery : Delivery
         Console.WriteLine("Address: " +
                           address);
 
-        Console.WriteLine("Bike Number: " +
+        Console.WriteLine("Drone Number: " +
                           droneNumber);
 
         Console.WriteLine("Order delivered by drone");
