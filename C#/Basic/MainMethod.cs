@@ -1,6 +1,4 @@
 using System;
-using System.Globalization;
-using System.Reflection.Metadata.Ecma335;
 class MainMethod
 {
     static void Main (String[] args)
@@ -22,5 +20,5 @@ class MainMethod
         // Calculator.StartCalculator();    
         
         ArrayExample.ShowArrayOperations();
-        }
+    }
 }
