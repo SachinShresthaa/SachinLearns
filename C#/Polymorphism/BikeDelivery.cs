@@ -1,13 +1,11 @@
-using System.Diagnostics;
-
 class BikeDelivery : Delivery
 {
     private string bikeNumber;
-    public BikeDelivery(string customerName , string address, string bikeNumber):base(customerName ,address)
+    public BikeDelivery(string customerName, string address, string bikeNumber) : base(customerName, address)
     {
-        this.bikeNumber=bikeNumber;
+        this.bikeNumber = bikeNumber;
     }
- public override void DeliverOrder()
+    public override void DeliverOrder()
     {
         Console.WriteLine("Customer: " +
                           customerName);
