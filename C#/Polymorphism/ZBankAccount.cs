@@ -1,31 +1,27 @@
-using System.Diagnostics.Contracts;
-
 class ZBankAccount
 {
     protected string accountHolder;
     protected double balance;
-    
 
-    // protected double deposit;
     public ZBankAccount(string accountHolder, double balance)
     {
-        this.accountHolder=accountHolder;
-        this.balance=balance;
+        this.accountHolder = accountHolder;
+        this.balance = balance;
     }
     public virtual void Deposit(double amount)
     {
-        balance+=amount;
-        Console.WriteLine("Deposited successfull");
+        balance += amount;
+        Console.WriteLine("Deposited successfully");
     }
     public virtual void withdraw(double amount)
     {
-        balance-=amount;
-        Console.WriteLine("Withdrawl sucessfull");
+        balance -= amount;
+        Console.WriteLine("Withdrawal successful");
     }
-    public  void DisplayBalance()
+    public void DisplayBalance()
     {
-        Console.WriteLine("Account Holder name: "+accountHolder);
-        Console.WriteLine("Balance"+balance);
+        Console.WriteLine("Account Holder name: " + accountHolder);
+        Console.WriteLine("Balance: " + balance);
     }
 
 }
