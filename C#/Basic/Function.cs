@@ -6,7 +6,7 @@ class Function
     }
     public static void DisplayName(String name)
     {
-        Console.WriteLine("Displpayed name is :"+ name);
+        Console.WriteLine("Displayed name is: " + name);
     }
     public static int GetNumber()
     {
