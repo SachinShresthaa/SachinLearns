@@ -3,7 +3,7 @@ class CollectionExample
     public static void ShowCollectionExample(){
         List<String> names = new List<String>();
         names.Add("Sachin");
-        names.Add("Amgel");
+        names.Add("Angel");
         names.Add("Prasun");
         
         foreach(string name in names)
@@ -20,6 +20,5 @@ class CollectionExample
         {
             Console.WriteLine(fruit.Key+":"+fruit.Value);
         }
-
-            }
+    }
 }
