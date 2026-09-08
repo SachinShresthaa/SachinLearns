@@ -1,9 +1,9 @@
 class DroneDelivery : Delivery
 {
     int droneNumber;
-    public DroneDelivery(string customerName , string address, int droneNumber):base(customerName ,address)
+    public DroneDelivery(string customerName, string address, int droneNumber) : base(customerName, address)
     {
-        this.droneNumber=droneNumber;
+        this.droneNumber = droneNumber;
     }
     public override void DeliverOrder()
     {
