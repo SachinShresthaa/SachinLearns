@@ -1,8 +1,7 @@
 class ZCurrentAccount : ZBankAccount
 {
-    
-    public ZCurrentAccount(string accountHolder, double balance):base(accountHolder,balance){
-        
+    public ZCurrentAccount(string accountHolder, double balance) : base(accountHolder, balance)
+    {
     }
     public override void withdraw(double amount)
     {
@@ -12,7 +11,7 @@ class ZCurrentAccount : ZBankAccount
         }
         else
         {
-            balance-=amount;
+            balance -= amount;
         }
     }
 
