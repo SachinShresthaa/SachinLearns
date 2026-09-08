@@ -1,5 +1,3 @@
-using System.Net.Mail;
-
 class MainMethod
 {
     static void Main(String[] args)
