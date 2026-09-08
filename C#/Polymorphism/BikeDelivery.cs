@@ -15,7 +15,7 @@ class BikeDelivery : Delivery
 
         Console.WriteLine("Bike Number: " +
                           bikeNumber);
-                          
+
         Console.WriteLine("Order delivered by Bike");
     }
 }
