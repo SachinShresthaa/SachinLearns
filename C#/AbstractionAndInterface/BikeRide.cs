@@ -1,12 +1,12 @@
-class BikeRide : Vehicle , IRide
+class BikeRide : Vehicle, IRide
 {
-    public BikeRide(string driverName,int bikeNumber):base(driverName, bikeNumber)
+    public BikeRide(string driverName, int bikeNumber) : base(driverName, bikeNumber)
     {
     }
     public void StartRide()
     {
         Console.WriteLine("Bike ride started");
-    
+
     }
     public void EndRide()
     {
@@ -14,6 +14,6 @@ class BikeRide : Vehicle , IRide
     }
     public override double CalculateFare(double distance)
     {
-        return distance*50;
+        return distance * 50;
     }
 }
