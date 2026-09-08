@@ -21,14 +21,14 @@ class MainMethod
         // }
 
         List<Vehicle> vehicles = new List<Vehicle>();
-        vehicles.Add( new CarRide("Manish",009));
-        vehicles.Add( new BikeRide("Bhupen",010));
-        vehicles.Add( new PremiumRide("Sumit",011));
+        vehicles.Add(new CarRide("Manish", 009));
+        vehicles.Add(new BikeRide("Bhupen", 010));
+        vehicles.Add(new PremiumRide("Sumit", 011));
 
         foreach(Vehicle vel in vehicles)
         {
             vel.ShowVehicleInfo();
-            Console.WriteLine("Fare: "+vel.CalculateFare(50));
+            Console.WriteLine("Fare: " + vel.CalculateFare(50));
         }
 
     }
