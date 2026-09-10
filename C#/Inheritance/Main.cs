@@ -14,6 +14,6 @@
 //         Patient p1 = new Patient("Angel",20,"Headache",7);
 //         p1.DisplayPatientInfo();
 //         p1.DisplayPersonInfo();
-        
+
 //     }
 // }
