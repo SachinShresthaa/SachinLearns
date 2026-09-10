@@ -18,29 +18,30 @@ class Calculator
             case ("+"):
                 result = num1 + num2;
                 break;
-            
-            case("-"):
+
+            case ("-"):
                 result = num1 - num2;
                 break;
 
-            case("*"):
+            case ("*"):
                 result = num1 * num2;
                 break;
 
             case ("/"):
-             if (num2!=0){
-                result = num1/num2;
-                
+                if (num2 != 0)
+                {
+                    result = num1 / num2;
                 }
                 else
                 {
                     Console.WriteLine("Cannot divide by 0");
-                }break;
+                }
+                break;
 
             default:
-            Console.WriteLine("Invalid Operator");
+                Console.WriteLine("Invalid Operator");
                 return;
         }
-        Console.WriteLine("the result is:"+ result);
+        Console.WriteLine("the result is: " + result);
     }
 }
