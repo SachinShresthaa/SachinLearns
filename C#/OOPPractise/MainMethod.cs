@@ -19,7 +19,7 @@ class MainMethod
 
         // Animal d1 = new Dog();
         // d1.Sound();
-    
+
         // Animal c1 = new Cat();
         // c1.Sound();
 
