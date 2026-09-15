@@ -2,16 +2,16 @@ public class Hospital
 {
     List<Doctor> doctors = new List<Doctor>();
     List<Patient> patients = new List<Patient>();
-    Dictionary<int,Patient> patientRecord = new Dictionary<int, Patient>();
-        public void addDoctor(Doctor doctor)
+    Dictionary<int, Patient> patientRecord = new Dictionary<int, Patient>();
+    public void addDoctor(Doctor doctor)
     {
         doctors.Add(doctor);
         Console.WriteLine("Doctor added successfully");
     }
-    public void addPatient(int patientID,Patient patient)
+    public void addPatient(int patientID, Patient patient)
     {
         patients.Add(patient);
-        patientRecord.Add(patientID,patient);
+        patientRecord.Add(patientID, patient);
         Console.WriteLine("Patient Added");
     }
     public void showDoctor()
