@@ -1,12 +1,12 @@
 public class Nurse : Person
 {
     private int WardNumber;
-    private string ShiftTiming="";
+    private string ShiftTiming = "";
 
-    public Nurse(string Name,int Age,string Gender,int WardNumber,string ShiftTiming) : base(Name,Age,Gender)
+    public Nurse(string Name, int Age, string Gender, int WardNumber, string ShiftTiming) : base(Name, Age, Gender)
     {
-        this.WardNumber=WardNumber;
-        this.ShiftTiming=ShiftTiming;
+        this.WardNumber = WardNumber;
+        this.ShiftTiming = ShiftTiming;
     }
     public void AssistDoctor()
     {
@@ -15,6 +15,6 @@ public class Nurse : Person
     public override void DisplayInfo()
     {
         base.DisplayInfo();
-        Console.WriteLine("Ward Number : "+WardNumber+"\n"+"Shift Timing : "+ShiftTiming);
+        Console.WriteLine("Ward Number : " + WardNumber + "\n" + "Shift Timing : " + ShiftTiming);
     }
 }
