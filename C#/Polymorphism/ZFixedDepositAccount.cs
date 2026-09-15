@@ -1,6 +1,6 @@
 class ZFixedDepositAccount : ZSavingAccount
 {
-    public ZFixedDepositAccount(string accountHolder, double balance): base(accountHolder,balance)
+    public ZFixedDepositAccount(string accountHolder, double balance) : base(accountHolder, balance)
     {
     }
     public override void withdraw(double amount)
