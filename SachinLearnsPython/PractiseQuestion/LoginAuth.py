@@ -1,11 +1,11 @@
-username="sachin"
-password="12345"
+username = "sachin"
+password = "12345"
 un = input("Enter Username: ")
 pw = input("Enter Password: ")
 
 if un == username and pw == password:
-    print("Successfull login")
+    print("Successful login")
 elif un == username and pw != password:
     print("Incorrect Password")
-else: 
+else:
     print("User not found")
