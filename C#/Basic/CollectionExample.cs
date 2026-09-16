@@ -1,6 +1,7 @@
 class CollectionExample
 {
-    public static void ShowCollectionExample(){
+    public static void ShowCollectionExample()
+    {
         List<String> names = new List<String>();
         names.Add("Sachin");
         names.Add("Angel");
