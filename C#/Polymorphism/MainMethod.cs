@@ -16,9 +16,9 @@ class MainMethod
         // }
 
         List<ZBankAccount> BA = new List<ZBankAccount>();
-        BA.Add(new ZSavingAccount("Sumit",10000));
-        BA.Add(new ZCurrentAccount("Angel",1000));
-        BA.Add(new ZFixedDepositAccount("Prasun",20000));
+        BA.Add(new ZSavingAccount("Sumit", 10000));
+        BA.Add(new ZCurrentAccount("Angel", 1000));
+        BA.Add(new ZFixedDepositAccount("Prasun", 20000));
 
         foreach(ZBankAccount account in BA)
         {
