@@ -1,20 +1,20 @@
 public class Patient : Person, IHospitalOperations
 {
     private int PatientID;
-    private string Disease="";
+    private string Disease = "";
     private int RoomNumber;
     private double BillAmount;
 
-    public Patient(string Name,int Age,string Gender,int PatientID,string Disease,int RoomNumber, double BillAmount) : base(Name,Age,Gender)
+    public Patient(string Name, int Age, string Gender, int PatientID, string Disease, int RoomNumber, double BillAmount) : base(Name, Age, Gender)
     {
         if (Age <= 0)
         {
             throw new Exception("GHOSTTTTT???");
         }
-        this.PatientID=PatientID;
-        this.Disease=Disease;
-        this.RoomNumber=RoomNumber;
-        this.BillAmount=BillAmount;
+        this.PatientID = PatientID;
+        this.Disease = Disease;
+        this.RoomNumber = RoomNumber;
+        this.BillAmount = BillAmount;
     }
     public void BookAppointment()
     {
@@ -22,7 +22,7 @@ public class Patient : Person, IHospitalOperations
     }
     public void ShowBill()
     {
-        Console.WriteLine("Bill amount"+ BillAmount);
+        Console.WriteLine("Bill amount" + BillAmount);
     }
     public void AdmitPatient()
     {
@@ -39,6 +39,6 @@ public class Patient : Person, IHospitalOperations
     public override void DisplayInfo()
     {
         base.DisplayInfo();
-        Console.WriteLine("Patient ID : "+PatientID+"\n"+"Disease : "+Disease+"\n"+"Room Number : "+RoomNumber+"\n"+"Bill Amount: "+BillAmount);
+        Console.WriteLine("Patient ID : " + PatientID + "\n" + "Disease : " + Disease + "\n" + "Room Number : " + RoomNumber + "\n" + "Bill Amount: " + BillAmount);
     }
 }
