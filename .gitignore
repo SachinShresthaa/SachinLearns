@@ -7,3 +7,7 @@ Java/wc-classes/
 Java/wc-output/
 Java/wc-output2/
 Java/wordcount.jar
+
+# Python build/cache artifacts
+__pycache__/
+*.pyc
