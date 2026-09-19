@@ -5,10 +5,10 @@ text = 'Hello, Sachin Shrestha'
 #step 1 normalize
 text = text.lower().strip()
 
-#steop2 remove punctuation
+#step 2 remove punctuation
 text = re.sub(r'[^\w\s]', '', text)
- 
- #step 3 tokenization
+
+#step 3 tokenization
 tokens = text.split()
 
 #step 4 : remove stop words
