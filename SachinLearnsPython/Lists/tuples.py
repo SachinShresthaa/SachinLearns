@@ -1,14 +1,14 @@
-#Tuple creation 
+#Tuple creation
 point = (910.5, 20.3)
-rgb = (255,128,0)
-person = ("sachin",22,"BCA")
+rgb = (255, 128, 0)
+person = ("sachin", 22, "BCA")
 
-#Turple as dict key (list cant do this!)
+#Tuple as dict key (list cant do this!)
 locations = {(28.5, 77.2): "Manthali",
-             (19.0,72.8): "Heriiiiiiii"}
+             (19.0, 72.8): "Heriiiiiiii"}
 
-print(locations[(28.5,77.2)])
+print(locations[(28.5, 77.2)])
 
-#singe-element tuple = need trainling comma
+#single-element tuple = need trailing comma
 one = (42,)
 print(type(one))
