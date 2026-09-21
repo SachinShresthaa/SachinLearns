@@ -20,6 +20,6 @@ def binary_search(arr, target, lo=0, hi=None):
         return binary_search(arr, target, lo, mid - 1)
 
 
-arr = [2,5,8,12,16,23,28,58]
+arr = [2, 5, 8, 12, 16, 23, 28, 58]
 
 print(binary_search(arr, 23))
