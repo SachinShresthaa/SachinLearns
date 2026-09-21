@@ -8,6 +8,6 @@ def largest(nums):
 
     return big
 
-numbers = [4,9,2,7,1]
+numbers = [4, 9, 2, 7, 1]
 
 print("Largest:", largest(numbers))
