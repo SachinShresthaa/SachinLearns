@@ -11,13 +11,13 @@ ranked = sorted(students, key=lambda s: s[1], reverse=True)
 print(ranked)
 
 
-#Lamda with map()
-nums = [1,2,3,4,5,6,7,8,9,10]
-doubled = list(map(lambda x: x*2, nums))
-evens = list(filter(lambda x: x % 2 == 0,nums))
+#Lambda with map()
+nums = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
+doubled = list(map(lambda x: x * 2, nums))
+evens = list(filter(lambda x: x % 2 == 0, nums))
 print(doubled)
 print(evens)
 
 #Lambda in ML-custom loss weight
-loss_weight = lambda epoch: 1.0/(1+0.1*epoch)
-print([round(loss_weight(e),3) for e in range(5)])
+loss_weight = lambda epoch: 1.0 / (1 + 0.1 * epoch)
+print([round(loss_weight(e), 3) for e in range(5)])
