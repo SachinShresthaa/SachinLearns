@@ -12,3 +12,5 @@ for i in range(1, 11):
 
 eligible_count = count_eligible_students(attendances)
 print("Number of eligible students:", eligible_count)
+
+
