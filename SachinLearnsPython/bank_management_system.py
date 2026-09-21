@@ -1,4 +1,6 @@
 import json
+
+
 class Person:
 
     def __init__(self, name, age):
@@ -8,6 +10,7 @@ class Person:
     def display_info(self):
         print(f"Name: {self.name}")
         print(f"Age: {self.age}")
+
 
 class BankAccount(Person):
 
@@ -24,8 +27,10 @@ class BankAccount(Person):
 
     def get_account_number(self):
         return self.__account_number
+
     def check_balance(self):
         print(f"Current Balance: ${self.__balance:.2f}")
+
     def deposit(self, amount):
 
         if amount <= 0:
@@ -57,6 +62,7 @@ Age: {self.age}
 Balance: ${self.__balance:.2f}
 ------------------------------
 """)
+
     def to_dict(self):
 
         return {
@@ -75,9 +81,10 @@ Balance: ${self.__balance:.2f}
     def is_valid_age(age):
         return age >= 18
 
-    class BankManagementSystem:
 
-     def __init__(self):
+class BankManagementSystem:
+
+    def __init__(self):
 
         self.accounts = []
 
@@ -126,9 +133,9 @@ Balance: ${self.__balance:.2f}
 
             print("Error:", error)
 
-        def find_account(self, account_number):
+    def find_account(self, account_number):
 
-         for account in self.accounts:
+        for account in self.accounts:
 
             if account.get_account_number() == account_number:
 
@@ -336,6 +343,7 @@ Balance: ${self.__balance:.2f}
 
                 print("Invalid choice.")
 
-    bank = BankManagementSystem()
 
-    bank.run()
+bank = BankManagementSystem()
+
+bank.run()
