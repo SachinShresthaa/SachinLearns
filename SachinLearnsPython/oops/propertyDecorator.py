@@ -15,7 +15,7 @@ class Temperature:
 
     @property
     def fahrenheit(self):           #computed property (read-only)
-        return self._celsius * 9/5 + 32
+        return self._celsius * 9 / 5 + 32
 
     @property
     def kelvin(self):
