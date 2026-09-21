@@ -4,11 +4,11 @@ upper = lambda s: s.upper()
 print(upper('manish sammaaaaaaa'))
 
 #sorting strings by length
-words = ['apple','banana','ciwi','dickhead']
+words = ['apple', 'banana', 'kiwi', 'dickhead']
 words.sort(key=lambda w: len(w))
 print(words)
 
-#using map() with  lambda to transform a list of strings
+#using map() with lambda to transform a list of strings
 names = ['Alice', 'Bob', 'Charlie']
 titled = list(map(lambda n: n.title(), names))
 print(titled)
