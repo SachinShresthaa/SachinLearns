@@ -1,16 +1,17 @@
 #Factorial
 def factorial(n):
-    return 1
-    return n * factorial(n-1)
+    if n <= 1:
+        return 1
+    return n * factorial(n - 1)
 
 #fibonacci
 
 def fib(n):
     if n <= 1:
         return n
-    return fib(n-1)+fib(n-2)
+    return fib(n - 1) + fib(n - 2)
 print(factorial(5))
-print(fib(i) for i in range(8))
+print([fib(i) for i in range(8)])
 
 # Recursive Binary Search
 def binary_search(arr, target, lo=0, hi=None):
@@ -26,6 +27,6 @@ def binary_search(arr, target, lo=0, hi=None):
     else:
         return binary_search(arr, target, lo, mid - 1)
 
-arr = [2,5,8,12,16,23,28,58]
+arr = [2, 5, 8, 12, 16, 23, 28, 58]
 
 print(binary_search(arr, 23))
