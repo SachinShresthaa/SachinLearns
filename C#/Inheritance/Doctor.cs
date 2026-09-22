@@ -10,6 +10,6 @@
     }
     public void DisplayDoctorInfo()
     {
-        Console.WriteLine("Specialization: "+specialization+"\n"+"Salary: "+salary);
+        Console.WriteLine("Specialization: " + specialization + "\n" + "Salary: " + salary);
     }
 }
