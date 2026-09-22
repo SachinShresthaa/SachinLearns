@@ -7,6 +7,6 @@
 //         Console.Write("enter number");
 //         string number = Console.ReadLine();
 //         int n = Convert.ToInt32(number);
-//         Console.WriteLine("The conversion vaule is:"+n);
+//         Console.WriteLine("The conversion value is:" + n);
 //     }
 // }
