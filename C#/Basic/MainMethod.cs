@@ -8,10 +8,10 @@ class MainMethod
         // Function.DisplayName("Sachin");
 
         // int number = Function.GetNumber();
-        // Console.WriteLine("The Value is:"+ number);
+        // Console.WriteLine("The Value is:" + number);
 
-        // int SUM = Function.sum(2,3);
-        // Console.WriteLine("The sume is :"+SUM);
+        // int SUM = Function.sum(2, 3);
+        // Console.WriteLine("The sume is :" + SUM);
 
         //StringsMethods.AllStringMethodHere();
 
