@@ -12,6 +12,6 @@ public abstract class Person
     }
     public virtual void DisplayInfo()
     {
-        Console.WriteLine("Name : "+Name+"\n"+"Age : "+Age+"\n"+"Gender : "+Gender+"\n");
+        Console.WriteLine("Name : " + Name + "\n" + "Age : " + Age + "\n" + "Gender : " + Gender + "\n");
     }
 }
