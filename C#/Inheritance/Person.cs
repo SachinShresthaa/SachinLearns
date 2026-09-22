@@ -9,6 +9,6 @@ class Person
     }
     public void DisplayPersonInfo()
     {
-        Console.WriteLine("Name: "+name+"\n"+"Age: "+age);
+        Console.WriteLine("Name: " + name + "\n" + "Age: " + age);
     }
 }
