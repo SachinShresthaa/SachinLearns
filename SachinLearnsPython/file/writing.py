@@ -1,4 +1,4 @@
-students = [("Alice", 92), ("bob", 85), ("Carol", 78)]
+students = [("Alice", 92), ("Bob", 85), ("Carol", 78)]
 with open("results.txt", "w", encoding="utf-8") as f:
     f.write("===Exam result===\n")
     for name, score in students:
