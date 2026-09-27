@@ -1,6 +1,6 @@
 using System;
 
-class basicEH
+class BasicEH
 {
     public void EH()
     {

@@ -2,7 +2,7 @@ class MainMethod
 {
     public static void Main(String[] args)
     {
-        // basicEH b = new basicEH();
+        // BasicEH b = new BasicEH();
         // b.EH();
 
         // throwsEG t = new throwsEG();
