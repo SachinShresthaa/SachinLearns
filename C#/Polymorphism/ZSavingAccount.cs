@@ -3,7 +3,7 @@ class ZSavingAccount : ZBankAccount
     public ZSavingAccount(string accountHolder, double balance) : base(accountHolder, balance)
     {
     }
-    public override void withdraw(double amount)
+    public override void Withdraw(double amount)
     {
         if (balance - amount >= 1000)
         {

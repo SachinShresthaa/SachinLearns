@@ -22,7 +22,7 @@ class MainMethod
 
         foreach(ZBankAccount account in BA)
         {
-            account.withdraw(7000);
+            account.Withdraw(7000);
             account.DisplayBalance();
         }
     }

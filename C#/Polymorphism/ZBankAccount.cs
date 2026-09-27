@@ -13,7 +13,7 @@ class ZBankAccount
         balance += amount;
         Console.WriteLine("Deposited successfully");
     }
-    public virtual void withdraw(double amount)
+    public virtual void Withdraw(double amount)
     {
         balance -= amount;
         Console.WriteLine("Withdrawal successful");
