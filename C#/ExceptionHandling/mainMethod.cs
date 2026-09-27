@@ -5,7 +5,7 @@ class MainMethod
         // BasicEH b = new BasicEH();
         // b.EH();
 
-        // throwsEG t = new throwsEG();
+        // ThrowsEG t = new ThrowsEG();
         // t.throooooo();
 
         ATM atm = new ATM();

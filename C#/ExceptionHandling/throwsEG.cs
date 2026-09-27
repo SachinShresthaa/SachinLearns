@@ -1,4 +1,4 @@
-class throwsEG
+class ThrowsEG
 {
     public void throooooo()
     {
