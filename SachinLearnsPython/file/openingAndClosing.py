@@ -1,4 +1,4 @@
-f = open("data.txt", "w")
+f = open("data.txt", "w", encoding="utf-8")
 f.write("Machine Learning")
 f.write("Deep Learning")
 f.close()
