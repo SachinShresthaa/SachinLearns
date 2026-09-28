@@ -22,7 +22,7 @@ public class Patient : Person, IHospitalOperations
     }
     public void ShowBill()
     {
-        Console.WriteLine("Bill amount" + BillAmount);
+        Console.WriteLine("Bill amount: " + BillAmount);
     }
     public void AdmitPatient()
     {
