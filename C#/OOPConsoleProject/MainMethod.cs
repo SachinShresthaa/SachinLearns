@@ -13,7 +13,10 @@ public class MainMethod
             Console.WriteLine("3. Show All Records");
             Console.WriteLine("4. Exit");
             Console.Write("Enter Choice: ");
-            int Choice = Convert.ToInt32(Console.ReadLine());
+            if (!int.TryParse(Console.ReadLine(), out int Choice))
+            {
+                Choice = -1;
+            }
 
             switch (Choice)
             {
