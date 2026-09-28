@@ -18,27 +18,38 @@ public class MainMethod
             switch (Choice)
             {
                 case 1:
-                    Console.Write("Enter Doctor Name: ");
-                    string dname = Console.ReadLine() ?? "";
+                    try
+                    {
+                        Console.Write("Enter Doctor Name: ");
+                        string dname = Console.ReadLine() ?? "";
 
-                    Console.Write("Enter Doctor Age: ");
-                    int dage = Convert.ToInt32(Console.ReadLine());
+                        Console.Write("Enter Doctor Age: ");
+                        int dage = Convert.ToInt32(Console.ReadLine());
 
-                    Console.Write("Enter Gender: ");
-                    string dgender = Console.ReadLine() ?? "";
+                        Console.Write("Enter Gender: ");
+                        string dgender = Console.ReadLine() ?? "";
 
-                    Console.Write("Enter Doctor ID: ");
-                    int did = Convert.ToInt32(Console.ReadLine());
+                        Console.Write("Enter Doctor ID: ");
+                        int did = Convert.ToInt32(Console.ReadLine());
 
-                    Console.Write("Enter Specialization: ");
-                    string specialization = Console.ReadLine() ?? "";
+                        Console.Write("Enter Specialization: ");
+                        string specialization = Console.ReadLine() ?? "";
 
-                    Console.Write("Enter Salary: ");
-                    double salary = Convert.ToDouble(Console.ReadLine());
+                        Console.Write("Enter Salary: ");
+                        double salary = Convert.ToDouble(Console.ReadLine());
 
-                    Doctor d1 = new Doctor(dname, dage, dgender, did, specialization, salary);
-                    p.Add(d1);
-                    Console.WriteLine("Doctor Added Successfully");
+                        Doctor d1 = new Doctor(dname, dage, dgender, did, specialization, salary);
+                        p.Add(d1);
+                        Console.WriteLine("Doctor Added Successfully");
+                    }
+                    catch (Exception ex)
+                    {
+                        Console.WriteLine(ex.Message);
+                    }
+                    finally
+                    {
+                        Console.WriteLine("Doctor Process Finished");
+                    }
                     break;
                 case 2:
                     try
