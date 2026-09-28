@@ -12,7 +12,7 @@ class Function
     {
         return 100;
     }
-    public static int sum(int a, int b)
+    public static int Sum(int a, int b)
     {
         int sum = a + b;
         return sum;

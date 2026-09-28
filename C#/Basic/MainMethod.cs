@@ -10,7 +10,7 @@ class MainMethod
         // int number = Function.GetNumber();
         // Console.WriteLine("The Value is:" + number);
 
-        // int SUM = Function.sum(2, 3);
+        // int SUM = Function.Sum(2, 3);
         // Console.WriteLine("The sume is :" + SUM);
 
         //StringsMethods.AllStringMethodHere();
