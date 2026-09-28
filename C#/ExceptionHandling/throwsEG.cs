@@ -5,7 +5,8 @@ class ThrowsEG
         try
         {
             int age = 15;
-            if (age < 18){
+            if (age < 18)
+            {
                 throw new Exception("Not eligible for vote");
             }
             Console.WriteLine("Eligible");
