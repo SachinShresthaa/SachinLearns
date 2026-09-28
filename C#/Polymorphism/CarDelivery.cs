@@ -1,9 +1,9 @@
 class CarDelivery : Delivery
 {
-    int CarNumber;
-    public CarDelivery(string customerName, string address, int CarNumber) : base(customerName, address)
+    int carNumber;
+    public CarDelivery(string customerName, string address, int carNumber) : base(customerName, address)
     {
-        this.CarNumber = CarNumber;
+        this.carNumber = carNumber;
     }
     public override void DeliverOrder()
     {
@@ -14,7 +14,7 @@ class CarDelivery : Delivery
                           address);
 
         Console.WriteLine("Car Number: " +
-                          CarNumber);
+                          carNumber);
 
         Console.WriteLine("Order delivered by Car");
     }
