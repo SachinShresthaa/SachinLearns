@@ -1,0 +1,3 @@
+# Normalize line endings for all text files so the repository stores a
+# consistent format regardless of each contributor's local git config.
+* text=auto eol=lf
