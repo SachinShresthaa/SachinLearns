@@ -6,7 +6,7 @@ class Calculator
         Double num1 = Convert.ToDouble(Console.ReadLine());
 
         Console.Write("Enter The Operator(+,-,*,/): ");
-        String Operator = Console.ReadLine();
+        String Operator = Console.ReadLine() ?? "";
 
         Console.Write("Enter Second Number: ");
         Double num2 = Convert.ToDouble(Console.ReadLine());
