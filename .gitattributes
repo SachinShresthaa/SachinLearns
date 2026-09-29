@@ -1,3 +1,8 @@
 # Normalize line endings for all text files so the repository stores a
 # consistent format regardless of each contributor's local git config.
 * text=auto eol=lf
+
+# Windows batch scripts are Windows-only and some cmd.exe versions are
+# picky about line endings -- keep these as native CRLF.
+*.cmd text eol=crlf
+*.bat text eol=crlf
