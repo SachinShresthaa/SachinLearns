@@ -1,5 +1,5 @@
 def learning_rate_decay(current_rate, n):
-    if n == 0:
+    if n <= 0:
         return current_rate
     return learning_rate_decay(current_rate * 0.9, n - 1)
 
